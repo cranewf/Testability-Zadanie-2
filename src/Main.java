@@ -4,7 +4,7 @@ public class Main {
 
         BmiService service = new BmiService();
 
-        int bmi = (int) service.calculate(105, 1.89);
+        int bmi = (int) service.calculate(98, 1.87);
 
         System.out.println("Ваш индекс массы тела равен " + bmi);
     }
